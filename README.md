@@ -88,6 +88,8 @@ conda install -c conda-forge gradio
 conda install markdown
 # For finetuning
 conda install datasets -c conda-forge
+conda install cuda-nvcc=11.7.64 -n alpaca4b -c nvidia
+conda install cuda-cudart-dev=11.7.60 -n alpaca4b -c nvidia
 ```
 
 ## 3. Clone `alpaca_lora_4bit`
